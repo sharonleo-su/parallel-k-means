@@ -7,10 +7,10 @@ This project implements a parallel version of the naive k-means clustering algor
 1. Clone or download the repository to your local machine.
 2. Navigate to the project directory.
 3. Ensure you have MPI installed on your system.
-4. Compile the provided `p5.cpp` file using MPI:
+4. Compile the provided `parallel-k-means.cpp` file using MPI:
 
    ```bash
-   mpic++ p5.cpp cluster.cpp -o kmeans
+   mpic++ parallel-k-means.cpp cluster.cpp -o kmeans
    ```
 
 ## Execution
@@ -33,8 +33,8 @@ mpiexec -n 4 ./kmeans 5 200000
 
 ## Performance Measurements
 
-   ![Runtime Data](Screen Shot 2024-04-09 at 12.04.55 AM.png)
+   ![Runtime Data](runtime-data.png)
 
-  ![Performance vs Cluster Count](Screen Shot 2024-04-09 at 12.05.15 AM.png)
+  ![Performance vs Cluster Count](performance-cluster-count.png)
   
-  ![Performance vs Point Count](Screen Shot 2024-04-09 at 12.05.38 AM.png)
+  ![Performance vs Point Count](performance-point-count.png)
