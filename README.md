@@ -33,6 +33,8 @@ mpiexec -n 4 ./kmeans 5 200000
 
 ## Performance Measurements
 
-  ![Cluster Count vs Performance](path/to/cluster_count_graph.png)
+   ![Runtime Data](Screen Shot 2024-04-09 at 12.04.55 AM.png)
+
+  ![Performance vs Cluster Count](Screen Shot 2024-04-09 at 12.05.15 AM.png)
   
-  ![Point Count vs Performance](path/to/point_count_graph.png)
+  ![Performance vs Point Count](Screen Shot 2024-04-09 at 12.05.38 AM.png)
